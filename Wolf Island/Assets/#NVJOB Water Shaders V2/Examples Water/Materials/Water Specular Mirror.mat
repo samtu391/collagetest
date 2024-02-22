@@ -2,28 +2,38 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water Specular Mirror
   m_Shader: {fileID: 4800000, guid: 104cb0e3a7464a3696069ea84b145eee, type: 3}
-  m_ShaderKeywords: EFFECT_ALBEDO2 EFFECT_FOAM EFFECT_MICROWAVE EFFECT_MIRROR EFFECT_NORMALMAP2
-    EFFECT_PARALLAX EFFECT_REFLECTION
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - EFFECT_ALBEDO2
+  - EFFECT_FOAM
+  - EFFECT_MICROWAVE
+  - EFFECT_MIRROR
+  - EFFECT_NORMALMAP2
+  - EFFECT_PARALLAX
+  - EFFECT_REFLECTION
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _AlbedoTex1:
         m_Texture: {fileID: 2800000, guid: d6840f77873948aeba2cdce3985ccf47, type: 3}
-        m_Scale: {x: 80, y: 80}
-        m_Offset: {x: 0, y: 0}
+        m_Scale: {x: 80.4, y: 80}
+        m_Offset: {x: 12.6, y: 0}
     - _AlbedoTex2:
         m_Texture: {fileID: 2800000, guid: 21cbc816b57948b196ced72a3c33a909, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -148,6 +158,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: 0c41e829b9bb6ee4cb72abae07230cdb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Albedo2Flow: -0.3
     - _Albedo2Tiling: 0.9
@@ -174,12 +185,12 @@ Material:
     - _FPOW: 10
     - _Factor: 202
     - _FadeLimit: 0.1
-    - _FoamAmplitude: 16
+    - _FoamAmplitude: 17.75
     - _FoamFlow: 11
-    - _FoamFrequency: 3
+    - _FoamFrequency: 3.82
     - _FoamGain: 0.6
     - _FoamLacunarity: 6
-    - _FoamScale: 0.1
+    - _FoamScale: 2.02
     - _GlossAmount: 0.03
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -193,8 +204,8 @@ Material:
     - _MainDetailFlow: 0
     - _MainDetailScale: 3
     - _Metallic: 0
-    - _MicrowaveScale: 1
-    - _MicrowaveStrength: 0.01
+    - _MicrowaveScale: 2.74
+    - _MicrowaveStrength: 0.001
     - _MinuteDetailIntensity: 1.455
     - _MinuteDetailScrollSpeed: 0.089
     - _MirrorContrast: 1
@@ -208,10 +219,10 @@ Material:
     - _Mitigation: 22.4
     - _Mode: 0
     - _NormalDetailFlow: 1
-    - _NormalMap1Strength: 0.95
-    - _NormalMap2Flow: 0.5
-    - _NormalMap2Strength: 0.9
-    - _NormalMap2Tiling: -0.9
+    - _NormalMap1Strength: 5.98
+    - _NormalMap2Flow: 0.62
+    - _NormalMap2Strength: 0.001
+    - _NormalMap2Tiling: -2.23
     - _NormalStrength: 0.85
     - _NormalmapDetailScale: 0.7
     - _NormalmapDetailScaleA: 1
@@ -235,7 +246,7 @@ Material:
     - _Reflect: 1
     - _ReflectionContrast: 1.66
     - _ReflectionSaturation: 0.4
-    - _ReflectionStrength: 0.41
+    - _ReflectionStrength: 0.65
     - _Refraction: 1
     - _RefractionIntensity: 0.61
     - _RefractionSpeed: 1.61
@@ -244,7 +255,7 @@ Material:
     - _SaturationRef: 0.5
     - _Shininess: 0.15
     - _SmoothnessTextureChannel: 0
-    - _SoftFactor: 0.09
+    - _SoftFactor: 0.084
     - _SpecularHighlights: 1
     - _Speed: 0.5
     - _SpeedX: 0.1
@@ -274,3 +285,4 @@ Material:
     - _ReflectionColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _SpecColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
     - _SpecularColor: {r: 0.5808823, g: 0.5808823, b: 0.5808823, a: 1}
+  m_BuildTextureStacks: []
