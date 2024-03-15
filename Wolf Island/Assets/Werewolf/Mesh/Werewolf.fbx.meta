@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: a11593b4d745d7f4598b01f0bbb8b9d9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01_Head
+    100004: Bip01_HeadNub
+    100006: Bip01_L_Calf
+    100008: Bip01_L_Clavicle
+    100010: Bip01_L_Finger0
+    100012: Bip01_L_Finger01
+    100014: Bip01_L_Finger02
+    100016: Bip01_L_Finger0Nub
+    100018: Bip01_L_Finger1
+    100020: Bip01_L_Finger11
+    100022: Bip01_L_Finger12
+    100024: Bip01_L_Finger1Nub
+    100026: Bip01_L_Finger2
+    100028: Bip01_L_Finger21
+    100030: Bip01_L_Finger22
+    100032: Bip01_L_Finger2Nub
+    100034: Bip01_L_Finger3
+    100036: Bip01_L_Finger31
+    100038: Bip01_L_Finger32
+    100040: Bip01_L_Finger3Nub
+    100042: Bip01_L_Finger4
+    100044: Bip01_L_Finger41
+    100046: Bip01_L_Finger42
+    100048: Bip01_L_Finger4Nub
+    100050: Bip01_L_Foot
+    100052: Bip01_L_Forearm
+    100054: Bip01_L_Hand
+    100056: Bip01_L_HorseLink
+    100058: Bip01_L_Thigh
+    100060: Bip01_L_Toe0
+    100062: Bip01_L_Toe01
+    100064: Bip01_L_Toe02
+    100066: Bip01_L_Toe0Nub
+    100068: Bip01_L_UpperArm
+    100070: Bip01_Neck
+    100072: Bip01_Pelvis
+    100074: Bip01_R_Calf
+    100076: Bip01_R_Clavicle
+    100078: Bip01_R_Finger0
+    100080: Bip01_R_Finger01
+    100082: Bip01_R_Finger02
+    100084: Bip01_R_Finger0Nub
+    100086: Bip01_R_Finger1
+    100088: Bip01_R_Finger11
+    100090: Bip01_R_Finger12
+    100092: Bip01_R_Finger1Nub
+    100094: Bip01_R_Finger2
+    100096: Bip01_R_Finger21
+    100098: Bip01_R_Finger22
+    100100: Bip01_R_Finger2Nub
+    100102: Bip01_R_Finger3
+    100104: Bip01_R_Finger31
+    100106: Bip01_R_Finger32
+    100108: Bip01_R_Finger3Nub
+    100110: Bip01_R_Finger4
+    100112: Bip01_R_Finger41
+    100114: Bip01_R_Finger42
+    100116: Bip01_R_Finger4Nub
+    100118: Bip01_R_Foot
+    100120: Bip01_R_Forearm
+    100122: Bip01_R_Hand
+    100124: Bip01_R_HorseLink
+    100126: Bip01_R_Thigh
+    100128: Bip01_R_Toe0
+    100130: Bip01_R_Toe01
+    100132: Bip01_R_Toe0Nub
+    100134: Bip01_R_UpperArm
+    100136: Bip01_Spine
+    100138: Bip01_Spine1
+    100140: Bone01
+    100142: Bone02
+    100144: Bone03
+    100146: Bone04
+    100148: Bone05
+    100150: Bone06
+    100152: Bone07
+    100154: Bone08
+    100156: Bone09
+    100158: Bone10
+    100160: Bone11
+    100162: Bone12
+    100164: Bone13
+    100166: Camera01
+    100168: U3DMesh
+    100170: //RootNode
+    100172: body
+    100174: root
+    100176: body 1
+    100178: Werewolf
+    100180: body_LOD0
+    100182: body_LOD0 1
+    100184: body_LOD2
+    100186: body_LOD2 1
+    100188: body_LOD3
+    100190: body_LOD3 1
+    100192: body_LOD4
+    100194: body_LOD4 1
+    100196: WereWolf
+    100198: WereWolf_LOD0
+    100200: WereWolf_LOD0 1
+    100202: WereWolf_LOD1
+    100204: WereWolf_LOD1 1
+    100206: WereWolf_LOD2
+    100208: WereWolf_LOD2 1
+    100210: WereWolf_LOD3
+    100212: WereWolf_LOD3 1
+    400000: Bip01
+    400002: Bip01_Head
+    400004: Bip01_HeadNub
+    400006: Bip01_L_Calf
+    400008: Bip01_L_Clavicle
+    400010: Bip01_L_Finger0
+    400012: Bip01_L_Finger01
+    400014: Bip01_L_Finger02
+    400016: Bip01_L_Finger0Nub
+    400018: Bip01_L_Finger1
+    400020: Bip01_L_Finger11
+    400022: Bip01_L_Finger12
+    400024: Bip01_L_Finger1Nub
+    400026: Bip01_L_Finger2
+    400028: Bip01_L_Finger21
+    400030: Bip01_L_Finger22
+    400032: Bip01_L_Finger2Nub
+    400034: Bip01_L_Finger3
+    400036: Bip01_L_Finger31
+    400038: Bip01_L_Finger32
+    400040: Bip01_L_Finger3Nub
+    400042: Bip01_L_Finger4
+    400044: Bip01_L_Finger41
+    400046: Bip01_L_Finger42
+    400048: Bip01_L_Finger4Nub
+    400050: Bip01_L_Foot
+    400052: Bip01_L_Forearm
+    400054: Bip01_L_Hand
+    400056: Bip01_L_HorseLink
+    400058: Bip01_L_Thigh
+    400060: Bip01_L_Toe0
+    400062: Bip01_L_Toe01
+    400064: Bip01_L_Toe02
+    400066: Bip01_L_Toe0Nub
+    400068: Bip01_L_UpperArm
+    400070: Bip01_Neck
+    400072: Bip01_Pelvis
+    400074: Bip01_R_Calf
+    400076: Bip01_R_Clavicle
+    400078: Bip01_R_Finger0
+    400080: Bip01_R_Finger01
+    400082: Bip01_R_Finger02
+    400084: Bip01_R_Finger0Nub
+    400086: Bip01_R_Finger1
+    400088: Bip01_R_Finger11
+    400090: Bip01_R_Finger12
+    400092: Bip01_R_Finger1Nub
+    400094: Bip01_R_Finger2
+    400096: Bip01_R_Finger21
+    400098: Bip01_R_Finger22
+    400100: Bip01_R_Finger2Nub
+    400102: Bip01_R_Finger3
+    400104: Bip01_R_Finger31
+    400106: Bip01_R_Finger32
+    400108: Bip01_R_Finger3Nub
+    400110: Bip01_R_Finger4
+    400112: Bip01_R_Finger41
+    400114: Bip01_R_Finger42
+    400116: Bip01_R_Finger4Nub
+    400118: Bip01_R_Foot
+    400120: Bip01_R_Forearm
+    400122: Bip01_R_Hand
+    400124: Bip01_R_HorseLink
+    400126: Bip01_R_Thigh
+    400128: Bip01_R_Toe0
+    400130: Bip01_R_Toe01
+    400132: Bip01_R_Toe0Nub
+    400134: Bip01_R_UpperArm
+    400136: Bip01_Spine
+    400138: Bip01_Spine1
+    400140: Bone01
+    400142: Bone02
+    400144: Bone03
+    400146: Bone04
+    400148: Bone05
+    400150: Bone06
+    400152: Bone07
+    400154: Bone08
+    400156: Bone09
+    400158: Bone10
+    400160: Bone11
+    400162: Bone12
+    400164: Bone13
+    400166: Camera01
+    400168: U3DMesh
+    400170: //RootNode
+    400172: body
+    400174: root
+    400176: body 1
+    400178: Werewolf
+    400180: body_LOD0
+    400182: body_LOD0 1
+    400184: body_LOD2
+    400186: body_LOD2 1
+    400188: body_LOD3
+    400190: body_LOD3 1
+    400192: body_LOD4
+    400194: body_LOD4 1
+    400196: WereWolf
+    400198: WereWolf_LOD0
+    400200: WereWolf_LOD0 1
+    400202: WereWolf_LOD1
+    400204: WereWolf_LOD1 1
+    400206: WereWolf_LOD2
+    400208: WereWolf_LOD2 1
+    400210: WereWolf_LOD3
+    400212: WereWolf_LOD3 1
+    2000000: Camera01
+    2100000: t43345
+    2100002: WerewolfFur
+    4300000: U3DMesh
+    4300002: body
+    4300004: body_LOD0
+    4300006: body_LOD2
+    4300008: body_LOD3
+    4300010: body_LOD4
+    4300012: WereWolf_LOD0
+    4300014: WereWolf_LOD1
+    4300016: WereWolf_LOD2
+    4300018: WereWolf_LOD3
+    7400000: all_in_one
+    7400002: Standby
+    7400004: walk
+    7400006: run
+    7400008: Attack1
+    7400010: Beaten
+    7400012: Victory
+    7400014: Roar
+    7400016: Attack20
+    7400018: Death
+    7400020: Jump
+    7400022: strafe_right
+    7400024: strafe_left
+    7400026: Attack2
+    7400028: Attack_standby
+    7400030: Attack3
+    7400032: recover
+    7400034: Idle
+    7400036: hit_Left1
+    7400038: Attack4
+    7400040: IdleAttack3
+    7400042: hit_Left2
+    7400044: hit_Right
+    7400046: Jump_start
+    7400048: Jump_air
+    7400050: Jump_Land
+    7400052: IdleAttack
+    7400054: Attack5
+    7400056: Attack6
+    7400058: Attack7
+    7400060: Attack8
+    7400062: IdleAttack2
+    7400064: Death2
+    7400066: run_2
+    7400068: Sneak_Left
+    7400070: Sneak_right
+    7400072: Victory_02
+    7400074: Victory_03
+    7400076: IdleCmmon
+    7400078: Idle_02
+    7400080: Idle_03
+    7400082: walk_backwrd
+    7400084: walk_Left
+    7400086: walk_Right
+    7400088: TPose
+    9500000: //RootNode
+    13700000: U3DMesh
+    13700002: body
+    13700004: body 1
+    13700006: body_LOD0
+    13700008: body_LOD2
+    13700010: body_LOD3
+    13700012: body_LOD4
+    13700014: WereWolf_LOD0
+    13700016: WereWolf_LOD1
+    13700018: WereWolf_LOD2
+    13700020: WereWolf_LOD3
+    20500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WerewolfFur
+    second: {fileID: 2100000, guid: 0dfaa9fee70a91d4c828a19494b1a506, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 78
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
