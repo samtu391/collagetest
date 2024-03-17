@@ -5,7 +5,7 @@ using TMPro;
 
 public class SelectManager : MonoBehaviour
 {
-    private string _selectTag = "Unikeselectionboat";
+    private string _selectTag;
     public Material highlightMaterial;
     private bool _isHighlighted = false;
 
@@ -37,7 +37,7 @@ public class SelectManager : MonoBehaviour
 
             var selection = hit.transform;
 
-            if(selection.CompareTag(_selectTag))
+            if(selection.CompareTag("Unikeselectionboat") || selection.CompareTag("door"))
             {
                 if (selection != _isHighlighted)
                 {
