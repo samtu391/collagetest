@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class SelectManager : MonoBehaviour
 {
+    //selection
     private string _selectTag;
     public Material highlightMaterial;
     private bool _isHighlighted = false;
@@ -14,6 +16,14 @@ public class SelectManager : MonoBehaviour
     public TMP_Text nameDisplay;
 
     public float distancefromitem = 3f;
+
+
+    //door
+
+    public Animator dooranimator;
+    public GameObject doorText;
+    public bool hasKey = false;
+    private bool _isOpen = false;
 
     private void Update()
     {
@@ -50,7 +60,63 @@ public class SelectManager : MonoBehaviour
 
         }
 
+        if (Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            DoorInteraction();
+        }
 
 
+
+    }
+
+    void DoorInteraction()
+    {
+        RaycastHit hitInfo;
+
+        Vector2 mousePosition = Mouse.current.position.ReadValue();
+        Ray rayOrgin = Camera.main.ScreenPointToRay(mousePosition);
+
+        if (Physics.Raycast(rayOrgin, out hitInfo, distancefromitem))
+        {
+            var selection = hitInfo.transform;
+            if (!hasKey)
+            {
+                doorText.SetActive(true);
+                Invoke("DisableText", 2f);
+
+            }
+            else 
+            {
+                if (selection.gameObject.tag == "door")
+                {
+                    if (!_isOpen)
+                    {
+                        dooranimator.SetTrigger("door-open");
+                        dooranimator.ResetTrigger("door-close");
+                        _isOpen = true;
+                    }
+                    else
+                    {
+                        dooranimator.SetTrigger("door-close");
+                        dooranimator.ResetTrigger("door-open");
+                        _isOpen = false;
+                    }
+                }
+            
+            }
+        }
+    }
+    void DisableText()
+    {
+        doorText.SetActive(false);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("key"))
+        {
+            hasKey = true;
+            Destroy(other.gameObject);
+        }
     }
 }
