@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class SelectManager : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class SelectManager : MonoBehaviour
 
     public Animator dooranimator;
     public GameObject doorText;
-    public bool hasKey = false;
+    public bool hasKey = true;
     private bool _isOpen = false;
 
     private void Update()
@@ -111,12 +112,20 @@ public class SelectManager : MonoBehaviour
         doorText.SetActive(false);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
+   private void OnTriggerEnter(Collider other)
+   {
         if (other.gameObject.CompareTag("key"))
         {
             hasKey = true;
             Destroy(other.gameObject);
+        }
+        if (other.gameObject.CompareTag("cavetp"))
+        {
+            SceneManager.LoadScene("cave2");
+        }
+        if (other.gameObject.CompareTag("maintp"))
+        {
+            SceneManager.LoadScene("main");
         }
     }
 }

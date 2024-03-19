@@ -6,6 +6,11 @@ TagManager:
   tags:
   - CinemachineTarget
   - Unikeselectionboat
+  - door
+  - key
+  - maintp
+  - cavetp
+  - labtp
   layers:
   - Default
   - TransparentFX
