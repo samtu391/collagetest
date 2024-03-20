@@ -3396,7 +3396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2464428005366981302, guid: 5936e2b981d2d96438b06938f141efca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.277
+      value: 4.328
       objectReference: {fileID: 0}
     - target: {fileID: 2464428005366981302, guid: 5936e2b981d2d96438b06938f141efca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4754,7 +4754,7 @@ GameObject:
   - component: {fileID: 1375220641}
   - component: {fileID: 1375220640}
   - component: {fileID: 1375220639}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: maintp
   m_Icon: {fileID: 0}
@@ -4789,7 +4789,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375220638}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4802,7 +4802,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 62735cebfc5c9e24dab03da08fa1c77f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -125,7 +125,15 @@ public class SelectManager : MonoBehaviour
         }
         if (other.gameObject.CompareTag("maintp"))
         {
-            SceneManager.LoadScene("main");
+            SceneManager.LoadScene("mainC");
+        }
+        if (other.gameObject.CompareTag("labtp"))
+        {
+            SceneManager.LoadScene("lab");
+        }
+        if (other.gameObject.CompareTag("mainL"))
+        {
+            SceneManager.LoadScene("mainL");
         }
     }
 }
